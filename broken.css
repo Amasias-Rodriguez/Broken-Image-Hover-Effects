@@ -15,18 +15,17 @@ body{
 
 .box{
     position: relative;
-    width: 400px;
+    width: 407px;
     height: 300px;
 }
 
-.box span{
+.box span{_
     position: absolute;
     inset: 0;
     transition: 0.5s;
     background: url(/imagenes/pexels-lukas-rychvalsky-670720.jpg);
     background-size: cover;
 }
-
 .box span:nth-child(1){
     clip-path: polygon(0 0, 50% 0, 50% 50%, 0 50%);
     transition-delay: 0s;
